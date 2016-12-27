@@ -10,7 +10,7 @@ function LunchCheckerController($scope) {
   $scope.messageString = "";
   $scope.inputString = "";
   $scope.messageTextColor = "black";
-  $scope.textboxBorderColor = "transparent";
+  $scope.textboxBorderColor = "grey";
 
   $scope.countItemsInString = function(){
     if($scope.inputString.trim().length == 0)
